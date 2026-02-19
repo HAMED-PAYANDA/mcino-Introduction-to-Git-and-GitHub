@@ -20,7 +20,6 @@ final_capital = c + investor_profit
 
 ### Key Principles
 - No interest (riba)
-- No guaranteed return
 - Profit linked to real activity
 - Risk-sharing model
 
