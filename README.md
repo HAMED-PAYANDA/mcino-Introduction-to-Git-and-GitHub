@@ -86,4 +86,4 @@ chmod +x simple-interestfree.sh
 👤 Author
 Hamed Payanda
 •	GitHub: @HAMED-PAYANDA
-Developed to bridge programmatic logic with ethical, interest-free financial frameworks.
+Developed to bridge programmatic logic with ethical, interest-free financial frameworks. Completed as part of the IBM Full-Stack Software Developer Professional.
