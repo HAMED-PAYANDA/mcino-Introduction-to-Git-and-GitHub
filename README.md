@@ -24,7 +24,7 @@ Unlike traditional compound interest models that guarantee a fixed percentage re
 
 ## 🕌 Islamic Finance Principles Implemented
 
-* **No Fixed Interest (Riba):** Returns are never guaranteed as a fixed percentage of the capital.
+* **No Interest (Riba):** Returns are never guaranteed as a fixed percentage of the capital.
 * **Profit and Loss Sharing:** The investor's return fluctuates based on the actual business profit. If the business experiences a loss (negative profit), the capital is adjusted accordingly, reflecting true shared risk.
 * **Mudarabah Model:** Clear separation between the capital provider (Investor) and the working business, with profits distributed based on a pre-agreed percentage (`s`).
 
