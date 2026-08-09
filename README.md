@@ -7,6 +7,7 @@ A dual-script repository implementing ethical, interest-free (Riba-free) investm
 [![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Bash](https://img.shields.io/badge/Bash-Shell_Script-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)](https://www.gnu.org/software/bash/)
 [![Finance](https://img.shields.io/badge/Finance-Islamic_Banking-0052CC?style=for-the-badge&logo=revolut&logoColor=white)](#)
+[![IBM Certification](https://img.shields.io/badge/IBM-Full%20Stack%20Software%20Developer%20Professional-blue?style=for-the-badge&logo=ibm)](https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer)
 [![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)](#)
 
 </div>
@@ -59,6 +60,38 @@ A lightweight Bash script for quick, single-term profit distribution calculation
 $$\text{Investor Profit}=p\times\frac{s}{100}$$
 
 ---
+## 🏗️ Algorithmic Flow Diagram
+
+```mermaid
+graph TD
+    User(["👤 User Input (Terminal)"])
+
+    subgraph Python ["🐍 Python Model (compound_capitalgrowth.sh.py)"]
+        direction TB
+        P_Input["📥 Inputs: Capital, Years, Profits Array, Share %"]
+        P_Calc["⚙️ Iterative Capital Growth Loop"]
+        P_Out["💰 Final Compounded Capital"]
+    end
+
+    subgraph Bash ["🐚 Bash Model (simple-interestfree.sh)"]
+        direction TB
+        B_Input["📥 Inputs: Capital, Total Profit, Share %"]
+        B_Calc["⚙️ Profit Distribution Calculation"]
+        B_Out["💵 Investor Profit Allocation"]
+    end
+
+    User -->|"Executes Python Script"| P_Input
+    P_Input --> P_Calc
+    P_Calc --> P_Out
+
+    User -->|"Executes Bash Script"| B_Input
+    B_Input --> B_Calc
+    B_Calc --> B_Out
+
+    style User fill:#e8f5e9,stroke:#388e3c,stroke-width:2px,color:#000
+    style Python fill:#e1f5fe,stroke:#0288d1,stroke-width:2px,color:#000
+    style Bash fill:#f3e5f5,stroke:#8e24aa,stroke-width:2px,color:#000
+```
 
 ## 📁 Repository Structure
 
