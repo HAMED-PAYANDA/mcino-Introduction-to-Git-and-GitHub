@@ -92,6 +92,7 @@ graph TD
     style Python fill:#e1f5fe,stroke:#0288d1,stroke-width:2px,color:#000
     style Bash fill:#f3e5f5,stroke:#8e24aa,stroke-width:2px,color:#000
 ```
+---
 
 ## 📁 Repository Structure
 
@@ -101,7 +102,10 @@ halal-capital-growth/
 ├── simple-interestfree.sh          # Bash script for rapid single-term calculation
 └── README.md                       # Project documentation
 ```
-⚙️ Quick Start Usage
+---
+
+## ⚙️ Quick Start Usage
+
 Running the Python Model
 Ensure you have Python 3 installed. Open your terminal and run:
 ```text
@@ -115,8 +119,18 @@ Ensure the script has execution permissions, then run it in your terminal:
 chmod +x simple-interestfree.sh
 ./simple-interestfree.sh
 ```
+----
 
-👤 Author
-Hamed Payanda
-•	GitHub: @HAMED-PAYANDA
-Developed to bridge programmatic logic with ethical, interest-free financial frameworks. Completed as part of the IBM Full-Stack Software Developer Professional.
+## 📜 License 
+
+This project is licensed under the [Apache 2.0 License](LICENSE).
+
+---
+
+## 👤 Author
+
+**Hamed Payanda**
+* **GitHub:** [@HAMED-PAYANDA](https://github.com/HAMED-PAYANDA)
+* Developed to bridge programmatic logic with ethical, interest-free financial frameworks.
+* Completed as part of the **IBM Full-Stack Software Developer Professional**.
+
